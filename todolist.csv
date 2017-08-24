@@ -3,7 +3,7 @@
 3,three,true
 4,four,true
 5,five,true
-6,six,false
+6,six,true
 7,seven,false
 8,sjdlfkjsdklfj,true
 9,twelvly,false
@@ -12,4 +12,5 @@
 12,sdjfklsdjf,false
 13,sdfsdfsdf,false
 14,Go to store,true
-15,do another thing],false
+15,do another thing],true
+16,more stuuuuffff,false

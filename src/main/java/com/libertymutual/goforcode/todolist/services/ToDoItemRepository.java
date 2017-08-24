@@ -23,7 +23,7 @@ import com.libertymutual.goforcode.todolist.models.ToDoItem;
 public class ToDoItemRepository {
 
     private int nextId = 1;
-    private List<ToDoItem>	items;
+    private List<ToDoItem>	items = new ArrayList<ToDoItem>();
 
     /**
      * Get all the items from the file. 
@@ -33,7 +33,7 @@ public class ToDoItemRepository {
     	
 		try (Reader in = new FileReader("todolist.csv")) {
 	    	Iterable<CSVRecord> records = CSVFormat.RFC4180.parse(in);
-	    	 items = new ArrayList<ToDoItem>();
+	    	 items.clear();
 	    	for (CSVRecord record : records)	{
 	    		ToDoItem item = new ToDoItem();
 	    		item.setId(Integer.parseInt(record.get(0)));
