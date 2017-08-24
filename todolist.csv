@@ -1,16 +1,10 @@
-1,one,true
-2,two,true
+1,one,false
+2,two,false
 3,three,true
-4,four,true
+4,four,false
 5,five,true
-6,six,true
-7,seven,false
-8,sjdlfkjsdklfj,true
-9,twelvly,false
-10,sdklfj,true
-11,lksdjfl,true
-12,sdjfklsdjf,false
-13,sdfsdfsdf,false
-14,Go to store,true
-15,do another thing],true
-16,more stuuuuffff,false
+6,six,false
+7,MORE,true
+8,MOROOOROEOE,false
+9,MOOOOOOOOOOOOOOOOOOOOOOOOOORE,true
+10,MORE!!!,true
